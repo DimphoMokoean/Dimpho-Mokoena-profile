@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheCodes Homepage</title>
+    <style>
+        h1 {
+            text-decoration: underline;
+            color: rgb(156, 18, 101);
+            font-size: 48px;
+            font-weight: thin;
+            background-color:thistle;
+            font-style:italic;
+            text-align: center;
+        }
+
+.free {
+    color: blue;
+}
+
+.premium{
+    color: red;
+}
+
+.bonus{
+    color: green;
+}
+.info{
+    color: rgb(39, 32, 68);
+    text-align: center;
+    font-weight: normal;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(245, 240, 254);
+}
+
+.profile{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.description{
+    text-align: center;
+}
+
+.button{
+    padding: 15px 10px 15px 10px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: chocolate;
+    box-shadow: 0px 5px 10px 0px;
+    transition: all 200ms ease-in-out;
+} 
+button:hover{
+    background: white;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+li{
+    display: inline-block;
+}
+.contact-details{
+    text-align: center;
+    font-size: 14px;
+}
+.contact-email{
+    color: rgb(0, 139, 32);
+}
+.contact-socials{
+    color: rgb(30, 149, 164);
+}
+    </style>
+</head>
+<body>
+    <h1>
+        Dimpho Mokoena
+    </h1>
+    <p>
+        <h2 class="info">
+My Profile information 
+        </h2>
+            <button class="button">
+                Skills
+            </button>
+    </p>
+    <ul>
+        <li class="free">
+            <a href="https://www.linkedin.com/in/dimpho-mokoena-12b8a313a/" target="_blank" class="coders">
+Linkedin
+            </a>  
+        </li>
+        <li class="premium">
+            <a href="" target="_blank" class="linkedin">
+Website 
+            </a>
+        </li>
+        <li class="bonus">
+            <a href="https://www.shecodes.io/students" target="_blank" class="coders">
+Instagram
+            </a>
+        </li>
+    </ul>
+    <hr>
+    <strong>
+        <h4 class="description">
+More information
+            </strong>
+        </h4> 
+    <p class="profile">
+    <img src="https://media.licdn.com/dms/image/D4D03AQF3xcAiB7HRTA/profile-displayphoto-shrink_800_800/0/1675669459685?e=1685577600&v=beta&t=4OQZCHmEcmLUsQ8KmpVXsrzLn6vuhTpdBfHTvhicSvI" width="300" />
+    
+</p>
+    <div class="contact-details"> <BR>
+<span class="contact-email"> Email:</span>Dimphomokay@gmail.com <span class="contact-socials">Cellphone</span> 0720455319
+    </div>
+</body>
+</html>
